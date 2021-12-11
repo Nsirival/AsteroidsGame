@@ -1,5 +1,5 @@
 public class Asteroid extends Floater {
-  double rotSpeed = (Math.random()*5);
+  double rotSpeed = ((Math.random()*9)-5);
   public Asteroid() {
     corners = 8;  //the number of corners, a triangular floater has 3   
     xCorners = new int[corners];   

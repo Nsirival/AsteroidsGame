@@ -1,4 +1,4 @@
-class Spaceship extends Floater  
+public class Spaceship extends Floater  
 {   
   public Spaceship() {
     corners = 8;  //the number of corners, a triangular floater has 3   
@@ -32,8 +32,8 @@ class Spaceship extends Floater
   public void Hyperspace(){
     myXspeed = 0;
     myYspeed = 0;
-    myCenterX = (double)(Math.random()*600);
-    myCenterY = (double)(Math.random()*600);
+    myCenterX = (float)(Math.random()*600);
+    myCenterY = (float)(Math.random()*600);
     myPointDirection = (double)(Math.random()*360);
    
   }
